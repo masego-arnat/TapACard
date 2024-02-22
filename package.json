@@ -1,0 +1,11 @@
+{
+  "name": "tap-a-card",
+  "version": "1.0.0",
+  "scripts": {
+    "css:build": "npx tailwindcss -i ./wwwroot/css/globals.css -o ./wwwroot/css/globals.min.css --minify",
+    "css:dev": "npx tailwindcss -i ./wwwroot/css/globals.css -o ./wwwroot/css/globals.min.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
